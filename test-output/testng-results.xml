@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37096" started-at="2023-03-15T09:27:53 IST" finished-at="2023-03-15T09:28:30 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="37096" started-at="2023-03-15T09:27:53 IST" finished-at="2023-03-15T09:28:30 IST">
+      <class name="TestScripts.FunctionScript">
+        <test-method status="PASS" signature="startup()[pri:0, instance:TestScripts.FunctionScript@544a2ea6]" name="startup" is-config="true" duration-ms="8146" started-at="2023-03-15T09:27:53 IST" finished-at="2023-03-15T09:28:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method status="PASS" signature="purchase()[pri:1, instance:TestScripts.FunctionScript@544a2ea6]" name="purchase" duration-ms="3002" started-at="2023-03-15T09:28:01 IST" finished-at="2023-03-15T09:28:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchase -->
+        <test-method status="PASS" signature="additem(java.lang.String)[pri:2, instance:TestScripts.FunctionScript@544a2ea6]" name="additem" duration-ms="6353" started-at="2023-03-15T09:28:04 IST" data-provider="item" finished-at="2023-03-15T09:28:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung galaxy s7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- additem -->
+        <test-method status="PASS" signature="additem(java.lang.String)[pri:2, instance:TestScripts.FunctionScript@544a2ea6]" name="additem" duration-ms="6690" started-at="2023-03-15T09:28:11 IST" data-provider="item" finished-at="2023-03-15T09:28:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Iphone 6 32gb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- additem -->
+        <test-method status="PASS" signature="delete()[pri:3, instance:TestScripts.FunctionScript@544a2ea6]" name="delete" duration-ms="202" started-at="2023-03-15T09:28:17 IST" finished-at="2023-03-15T09:28:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete -->
+        <test-method status="PASS" signature="placeorder()[pri:4, instance:TestScripts.FunctionScript@544a2ea6]" name="placeorder" duration-ms="12559" started-at="2023-03-15T09:28:18 IST" finished-at="2023-03-15T09:28:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeorder -->
+      </class> <!-- TestScripts.FunctionScript -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
